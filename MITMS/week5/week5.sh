@@ -11,4 +11,11 @@ git log README.md
 git blame _config.yaml # to get the anotted difs and find commit hash
 git show <commit hash> to return the log for this commit
 
-# 3
+# 4 
+git log --all --oneline # shows all a WIP for the stashed changes
+
+# 5 
+# alias is setup in the .gitconfig file and attached to .dotfile repo
+
+# 6
+# setup .gitconfig_global and added it to bootsrap in .dotfiles
