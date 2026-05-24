@@ -1,0 +1,20 @@
+/* Compact tabs */
+.tabbrowser-tab {
+    min-height: 30px !important;
+}
+.tab-close-button {
+    display: none !important;
+}
+.tabbrowser-tab {
+    padding-inline: 2px !important;
+}
+.tabbrowser-tab[selected] .tab-background {
+    box-shadow: 0 0 5px #60a5fa !important;
+}
+.tabbrowser-tab[selected] .tab-background {
+    background: linear-gradient(90deg, #201120, #111111) !important;
+}
+.tabbrowser-tab .tab-background {
+    margin: 2px !important;
+    border-radius: 3px !important;
+}
