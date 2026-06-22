@@ -3,10 +3,12 @@
 
 # generated binaries
 */.so
+*.spv
 
 # Visual Binaries
 *.ppm
 
 # misc / executables
 main
+VulkanTest
 */.venv
